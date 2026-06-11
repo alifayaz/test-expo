@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "my-app",
-    "slug": "my-app",
+    "name": "sport-management-app",
+    "slug": "sport-management-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -23,6 +23,11 @@
       "output": "static",
       "favicon": "./assets/images/favicon.png"
     },
+    "extra": {
+      "eas": {
+        "projectId": "5830bcda-6232-4044-9f94-c099375a8a1b"
+      }
+    },
     "plugins": [
       "expo-router",
       [
@@ -36,6 +41,7 @@
         }
       ]
     ],
+    "owner": "fayazsaberis-team",
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
